@@ -1,0 +1,130 @@
+# depslib dependency file v1.0
+1384378254 source:c:\users\alberto\documents\programmazione\solitario\winmain.cpp
+	<windows.h>
+	"include/Tavolo.h"
+	"include/Interfaccia.h"
+	"include/Mazzo.h"
+	"include/NullPointerException.h"
+	"include/Windows.h"
+	<sstream>
+	<stdio.h>
+
+1330615922 c:\users\alberto\documents\programmazione\solitario\include\tavolo.h
+	"costanti.h"
+	"Mazzo.h"
+	"GruppoOrdinato.h"
+	"Pila.h"
+	"MazzoMaster.h"
+	<iostream>
+
+1330615846 c:\users\alberto\documents\programmazione\solitario\include\costanti.h
+
+1330615922 c:\users\alberto\documents\programmazione\solitario\include\mazzo.h
+	"costanti.h"
+	"GruppoDiCarte.h"
+	<string>
+
+1330615846 c:\users\alberto\documents\programmazione\solitario\include\gruppodicarte.h
+	"costanti.h"
+	"Carta.h"
+	<iostream>
+
+1331044850 c:\users\alberto\documents\programmazione\solitario\include\carta.h
+	"costanti.h"
+	<string>
+	<iostream>
+
+1330615922 c:\users\alberto\documents\programmazione\solitario\include\gruppoordinato.h
+	"costanti.h"
+	"GruppoDiCarte.h"
+	<iostream>
+
+1330615922 c:\users\alberto\documents\programmazione\solitario\include\pila.h
+	"costanti.h"
+	"GruppoDiCarte.h"
+	<iostream>
+	<string>
+
+1330615922 c:\users\alberto\documents\programmazione\solitario\include\mazzomaster.h
+	"costanti.h"
+	"GruppoDiCarte.h"
+
+1330615922 c:\users\alberto\documents\programmazione\solitario\include\interfaccia.h
+	"costanti.h"
+	"Tavolo.h"
+	"Risolutore.h"
+	<windows.h>
+
+1330615922 c:\users\alberto\documents\programmazione\solitario\include\risolutore.h
+	"costanti.h"
+	"Tavolo.h"
+	"Interfaccia.h"
+
+1384281963 source:c:\users\alberto\documents\programmazione\solitario\carta.cpp
+	"include/Carta.h"
+	<iostream>
+
+1384281970 source:c:\users\alberto\documents\programmazione\solitario\grabbedobject.cpp
+	"include/GrabbedObject.h"
+
+1331066804 c:\users\alberto\documents\programmazione\solitario\include\grabbedobject.h
+	"GruppoVolatile.h"
+	<windows.h>
+
+1331124992 c:\users\alberto\documents\programmazione\solitario\include\gruppovolatile.h
+	"GruppoOrdinato.h"
+	"costanti.h"
+	<windows.h>
+
+1384281976 source:c:\users\alberto\documents\programmazione\solitario\gruppodicarte.cpp
+	"include/GruppoDiCarte.h"
+	<sstream>
+	"include/NullPointerException.h"
+
+1330615922 c:\users\alberto\documents\programmazione\solitario\include\nullpointerexception.h
+	"costanti.h"
+	<string>
+
+1384281987 source:c:\users\alberto\documents\programmazione\solitario\gruppoordinato.cpp
+	"include/GruppoOrdinato.h"
+	<sstream>
+
+1384281990 source:c:\users\alberto\documents\programmazione\solitario\gruppovolatile.cpp
+	"include/GruppoVolatile.h"
+
+1384282001 source:c:\users\alberto\documents\programmazione\solitario\interfaccia.cpp
+	"include/costanti.h"
+	"include/Interfaccia.h"
+
+1384282009 source:c:\users\alberto\documents\programmazione\solitario\main.cpp
+	"include/Mazzo.h"
+	"include/Tavolo.h"
+	"include/Interfaccia.h"
+	<iostream>
+	<fstream>
+
+1384282014 source:c:\users\alberto\documents\programmazione\solitario\mazzo.cpp
+	"include/Mazzo.h"
+	<ctime>
+	<cstdlib>
+
+1384282017 source:c:\users\alberto\documents\programmazione\solitario\mazzomaster.cpp
+	"include/MazzoMaster.h"
+
+1384282020 source:c:\users\alberto\documents\programmazione\solitario\pila.cpp
+	"include/Pila.h"
+
+1384282025 source:c:\users\alberto\documents\programmazione\solitario\risolutore.cpp
+	"include/Risolutore.h"
+	"include/NullPointerException.h"
+
+1384282029 source:c:\users\alberto\documents\programmazione\solitario\tavolo.cpp
+	"include/Tavolo.h"
+	<iostream>
+
+1330615922 c:\users\alberto\documents\programmazione\solitario\include\windows.h
+	"costanti.h"
+	<windows.h>
+
+1331041042 source:c:\users\alberto\documents\programmazione\solitario\resource.rc
+

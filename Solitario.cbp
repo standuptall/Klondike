@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Solitario" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Solitario" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Solitario" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Linker>
+			<Add library="C:\Program Files\CodeBlocks\MinGW\lib\libgdi32.a" />
+		</Linker>
+		<Unit filename="Carta.cpp" />
+		<Unit filename="GrabbedObject.cpp" />
+		<Unit filename="GruppoDiCarte.cpp" />
+		<Unit filename="GruppoOrdinato.cpp" />
+		<Unit filename="GruppoVolatile.cpp" />
+		<Unit filename="Interfaccia.cpp" />
+		<Unit filename="Mazzo.cpp" />
+		<Unit filename="MazzoMaster.cpp" />
+		<Unit filename="Pila.cpp" />
+		<Unit filename="Risolutore.cpp" />
+		<Unit filename="Solitario.cbp" />
+		<Unit filename="Solitario.depend" />
+		<Unit filename="Tavolo.cpp" />
+		<Unit filename="WinMain.cpp" />
+		<Unit filename="include/Carta.h" />
+		<Unit filename="include/GrabbedObject.h" />
+		<Unit filename="include/GruppoDiCarte.h" />
+		<Unit filename="include/GruppoOrdinato.h" />
+		<Unit filename="include/GruppoVolatile.h" />
+		<Unit filename="include/Interfaccia.h" />
+		<Unit filename="include/Mazzo.h" />
+		<Unit filename="include/MazzoMaster.h" />
+		<Unit filename="include/NullPointerException.h" />
+		<Unit filename="include/Pila.h" />
+		<Unit filename="include/Risolutore.h" />
+		<Unit filename="include/Solitario_private.h" />
+		<Unit filename="include/Tavolo.h" />
+		<Unit filename="include/Windows.h" />
+		<Unit filename="include/costanti.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="resource.rc">
+			<Option compilerVar="WINDRES" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
